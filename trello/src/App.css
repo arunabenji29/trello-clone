@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+.all-todo{
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.backlog{
+  border:1px solid red;
+  width:23%;
+  height:800px;
+  background:red;
+}
+
+.todo{
+  /* border:1px solid red; */
+  width:23%;
+  height:800px;
+  background:green;
+}
+
+.inprogress{
+  /* border:1px solid red; */
+  width:23%;
+  height:800px;
+  background:yellow;
+}
+
+.completed{
+  /* border:1px solid red; */
+  width:23%;
+  height:800px;
+  background:blue;
+}
+
+.item{
+  margin:10px 2%;
+  display:flex;
+  justify-content: space-between;
+  background:white;
+  padding:2%;
+}
